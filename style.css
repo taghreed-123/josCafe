@@ -1,0 +1,119 @@
+.b{
+  background-image: url(https://up6.cc/11/160485894073721.jpg);
+  width:auto ;
+  height: 20%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.logo{
+  width:205px;
+  height: 160px;
+}
+
+.navbar{
+
+  display: flex;
+  align-items: center;
+  padding:20px;
+}
+nav{
+  flex :1;
+  text-align:right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color:#e8cba9;
+
+}
+.container{
+  background-image: url(https://h.top4top.io/p_17731hsw23.jpg);
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.paragraph{
+  font-size: 50px;
+  margin-left: 400px;
+  margin-top: 200px;
+    text-align:center;
+    color: white ;
+}
+.h2{
+    text-align: center;
+    color: #e8cba9;
+    direction: rtl;
+    font-style: normal;
+    padding: 100px;
+    line-height: 2.4;
+    font-size: 35px;
+  }
+  .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.small-container{
+  max-width: 1080px;
+  margin:auto;
+  padding-left:25px;
+  padding-right:25px;
+}
+.col-4{
+  flex-basis:30%;
+  padding:40px;
+  min-width: 250px;
+  margin-bottom: 50px;
+  color:#d8a76d;
+}
+.col-4 img{
+  width:100%;
+}
+.col-4 img:hover{
+  opacity: 0.7;
+}
+.col-4{
+  font-size: 14px;
+  color:#d8a76d;
+}
+.mab{
+  text-decoration:none;
+  font-size: 40px;
+  color:#e8cba9;
+
+}
+
+.information{
+font-size:70px;
+font-weight:bold;
+text-align:center;
+padding-top:150px;
+color:#e8cba9;
+}
+
+.prigrap{
+font-size:40px;
+padding-right:10px;
+color:#e8cba9;
+}
+.timeforprg{
+  font-size:40px;
+padding-right:250px;
+color:#e8cba9;
+}
