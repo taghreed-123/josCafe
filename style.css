@@ -60,6 +60,7 @@ a{
 }}
 @media all{
 .paragraph{
+  font-family: Amiri;
   font-size: 50px;
   margin-left: 400px;
   margin-top: 140px;
