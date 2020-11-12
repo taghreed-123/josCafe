@@ -1,3 +1,4 @@
+@media all{
 .b{
   background-image: url(https://up6.cc/11/160485894073721.jpg);
   width:auto ;
@@ -5,55 +6,68 @@
   background-size: cover;
   background-repeat:no-repeat;
   background-size: 100%;
-}
-
+}}
+@media all{
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
+}
+@media all{
 .logo{
   width:205px;
   height: 160px;
 }
-
+}
+@media all{
 .navbar{
 
   display: flex;
   align-items: center;
   padding:20px;
 }
+}
+@media all{
 nav{
   flex :1;
   text-align:right;
-}
+}}
+@media all{
 nav ul{
   display: inline-block;
   list-style-type: none;
-}
+}}
+@media all{
 nav ul li{
   display: inline-block;
   margin-right: 20px;
-}
+}}
+@media all{
 a{
   text-decoration: none;
   color:#e8cba9;
-
+  font-weight: bold;
 }
+}
+@media all{
 .container{
   background-image: url(https://h.top4top.io/p_17731hsw23.jpg);
   max-width: 1300px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
-}
+}}
+@media all{
 .paragraph{
+    font-family: Amiri;
   font-size: 50px;
   margin-left: 400px;
-  margin-top: 200px;
-    text-align:center;
-    color: white ;
-}
+  margin-top: 140px;
+  text-align:center;
+  color: white ;
+}}
+@media all{
 .h2{
     text-align: center;
     color: #e8cba9;
@@ -62,58 +76,67 @@ a{
     padding: 100px;
     line-height: 2.4;
     font-size: 35px;
-  }
+  }}
+  @media all{
   .row{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-}
+}}
+@media all{
 .small-container{
   max-width: 1080px;
   margin:auto;
   padding-left:25px;
   padding-right:25px;
-}
+}}
+@media all{
 .col-4{
   flex-basis:30%;
   padding:40px;
   min-width: 250px;
   margin-bottom: 50px;
   color:#d8a76d;
-}
+}}
+@media all{
 .col-4 img{
   width:100%;
-}
+}}
+@media all{
 .col-4 img:hover{
   opacity: 0.7;
-}
+}}
+@media all{
 .col-4{
   font-size: 14px;
   color:#d8a76d;
-}
+}}
+@media all{
 .mab{
   text-decoration:none;
   font-size: 40px;
   color:#e8cba9;
-
 }
-
+}
+@media all{
 .information{
 font-size:70px;
 font-weight:bold;
 text-align:center;
 padding-top:150px;
 color:#e8cba9;
-}
-
+}}
+@media all{
 .prigrap{
 font-size:40px;
 padding-right:10px;
 color:#e8cba9;
-}
+}}
+@media all{
 .timeforprg{
   font-size:40px;
 padding-right:250px;
 color:#e8cba9;
+}
 }
