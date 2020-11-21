@@ -7,7 +7,7 @@ $password = stripslashes($password);
 $username = mysql_real_escape_string($user);
 $password = mysql_real_escape_string($pass);
 
-mysql_connect("localhost","root","login");
+mysql_connect("localhost","root","");
 mysql_select_db("login");
 
 $result = mysql_query("select * from users where username = '$username' and password ='$password'")
