@@ -1,15 +1,23 @@
-<?php
-$con=mysqli_connect("localhost","root","","login")
-    or die (mysqli_connect_error());
-
-    mysqli_query($con,"CREATE TABLE IF NOT EXISTS users(
-      id INT NOT NULL AUTO_INCREMENT,
-      PRIMARY KEY (id),
-      username VARCHAR(100),
-      passowrd VARCHAR(100))")
-      or die (mysqli_connect_error());
-mysqli_query($con,"INSERT INTO users(username,passowrd)VALUES('testuser','testuserpass')")
-or die(mysqli_connect_error());
-
-
-?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>login page</title>
+  </head>
+  <body>
+    <div id="frm">
+      <form  action="proceess.php" method="post">
+<p>
+        <label>Username: </label>
+        <input type="text" id="user" name="user"/>
+</p>
+<p>
+  <label>Password:</label>
+  <input type="password" id="pass" name="pass"/>
+</p>
+<p>
+  <input type="submit" btn="" value="login">
+      </form>
+    </div>
+  </body>
+</html>
