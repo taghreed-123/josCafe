@@ -1,16 +1,25 @@
 <?php
-$username = $_POST['user'];
-$password = $_POST['pass'];
+$username = $_POST['username'];
+$password = $_POST['passowrd'];
 
 $username = stripslashes($username);
 $password = stripslashes($password);
-$username = mysql_real_escape_string($user);
-$password = mysql_real_escape_string($pass);
+$username = mysqli_real_escape_string($username);
+$password = mysqli_real_escape_string($password);
 
-mysql_connect("localhost","root","");
-mysql_select_db("login");
+$con=mysqli_connect("localhost","root","")
+mysqli_select_db("login")
+    or die (mysqli_connect_error());
 
-$result = mysql_query("select * from users where username = '$username' and password ='$password'")
-        or die ("Failled to my query database ".mysql_error());
-$row = mysql_fetch_array($result);
+    mysqli_query($con,"CREATE TABLE IF NOT EXISTS users(
+      id INT NOT NULL AUTO_INCREMENT,
+      PRIMARY KEY (id),
+      username VARCHAR(100),
+      passowrd VARCHAR(100))")
+      or die (mysql_connect_error());
+
+
+$result = mysqli_query("select * from users where username = '$username' and password ='$password'")
+        or die ("Failled to my query database ".mysqli_error());
+$row = mysqli_fetch_array($result);
  ?>

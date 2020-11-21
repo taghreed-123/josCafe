@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,7 +7,7 @@
   </head>
   <body>
     <div id="frm">
-      <form  action="proceess.php" method="post">
+      <form  action="proceess.php" method="POST">
 <p>
         <label>Username: </label>
         <input type="text" id="user" name="user"/>
@@ -16,7 +17,7 @@
   <input type="password" id="pass" name="pass"/>
 </p>
 <p>
-  <input type="submit" btn="" value="login">
+  <input type="submit" id="btn" value="login">
       </form>
     </div>
   </body>
