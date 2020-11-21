@@ -8,6 +8,8 @@ $con=mysqli_connect("localhost","root","","login")
       username VARCHAR(100),
       passowrd VARCHAR(100))")
       or die (mysqli_connect_error());
+mysqli_query($con,"INSERT INTO users(username,passowrd)VALUES('testuser','testuserpass')")
+or die(mysqli_connect_error());
 
 
 ?>
