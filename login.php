@@ -3,7 +3,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>login page</title>
+      <link rel="stylesheet" href="style.css">
+    <title> login page </title>
   </head>
   <body>
     <div id="frm">
