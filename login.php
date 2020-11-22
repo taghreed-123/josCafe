@@ -26,7 +26,7 @@
 
           <div class="col-md-6">
             <h2> Register Here</h2>
-            <form  action="registration.php" method="post">
+            <form  action="register.php" method="post">
               <div class="form-group">
                 <label> Usename</label>
                 <input type="text" name="user" class="form-control" required>
@@ -43,6 +43,6 @@
 
       </div>
 
-    </div>  
+    </div>
   </body>
 </html>
