@@ -140,6 +140,17 @@ padding-right:250px;
 color:#e8cba9;
 }
 }
+#content {
+text-align: center;
+color: #e8cba9;
+direction: rtl;
+font-style: normal;
+font-size: 30px;
+font-weight: bold;
+  font-weight: bold;
+line-height: 2.4;
+    margin-top: 19px;
+}
 #frm {
   border: solid gray 1px;
   width: 20%;
