@@ -14,7 +14,9 @@ mysqli_select_db($con,'userregistration');
 
   $num = mysqli_num_rows($result);
   if($num ==1){
-    header('location:home.php');
+    header('location:home.html');
   }else{
     header('location:login.php');
+  }
+
  ?>
