@@ -18,10 +18,11 @@ $result = mysqli_query($con,$s);
 $num = mysqli_num_rows($result);
 
 if($num ==1){
-  echo "username Already Taken";
+   echo "username Already Taken";
 }else{
   $reg ="insert into usertable(name,passowrd) values ('$name','$pass')";
-  mysqli_query($con,$reg);
-  echo "Registration Successful";
+    mysqli_query($con,$reg);
+    echo "<script type='text/javascript'>alert('تم دخولك للسحب')</script>";
 }
+
  ?>
