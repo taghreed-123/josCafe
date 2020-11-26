@@ -19,7 +19,7 @@ session_start();
   exit();
 }else{
 session start();
-    header('location:logo.php');
+    header('location:login.php');
 exit();
   }
 
