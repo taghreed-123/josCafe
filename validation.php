@@ -14,9 +14,13 @@ mysqli_select_db($con,'userregistration');
 
   $num = mysqli_num_rows($result);
   if($num==1){
+session_start();
     header('location:home.php');
-  }else{
-    header('location:home.php');
+  exit();
+}else{
+session start();
+    header('location:logo.php');
+exit();
   }
 
  ?>
