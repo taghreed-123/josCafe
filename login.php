@@ -6,7 +6,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-
 <div class="container">
     <div class="navbar">
       <div class="logo">
@@ -22,6 +21,7 @@
       </nav>
     </div>
 </div>
+
 <div id="content">
     12 - 4 - 1442  <br>
   يوم بداية الحلم وميلاد الحكاية، فيه طموحنا يكبر وبكم يفخر
@@ -67,7 +67,12 @@
       </div>
 
     </div>
-    <script src="script.js">
+
+
+  <script src="script.js">
     </script>
-  </body>
+
+
+
+</body>
 </html>
