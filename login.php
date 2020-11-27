@@ -6,6 +6,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    
+<div class="container">
+    <div class="navbar">
+      <div class="logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="login.php">تسجيل</a></li>
+          <li><a href="comun.html">التواصل</a></li>
+          <li><a href="menue.html"> القائمة</a></li>
+          <li><a href="who.html">من نحن</a></li>
+          <li><a href="home.html">الرئيسة</a></li>
+        </ul>
+      </nav>
+    </div>
+</div>
+<div id="content">
+    12 - 4 - 1442  <br>
+  يوم بداية الحلم وميلاد الحكاية، فيه طموحنا يكبر وبكم يفخر
+  هو يوم وضعنا فيه مزاجكم غايتنا وخدمته هدفنا..<br>
+  وبهذه المناسبة سجل دخولك لتدخل بالسحب على ايفون 12
+</div>
+
     <div class="cont">
       <div class="login-box">
       <div class="row1">
