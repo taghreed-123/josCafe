@@ -6,9 +6,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="container">
+    <div class="cont">
       <div class="login-box">
-      <div class="row">
+      <div class="row1">
         <div class="col-md-6">
           <h2> Login Here</h2>
           <form  action="validation.php" method="post">
