@@ -12,7 +12,7 @@
         </div>
         <nav>
           <ul>
-            <li><a href="login.php">تسجيل</a></li>
+            <li><a href="login.php">التسجيل</a></li>
             <li><a href="comun.html">التواصل</a></li>
             <li><a href="menue.html"> القائمة</a></li>
             <li><a href="who.html">من نحن</a></li>
