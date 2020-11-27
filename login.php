@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    
+
 <div class="container">
     <div class="navbar">
       <div class="logo">
@@ -17,7 +17,7 @@
           <li><a href="comun.html">التواصل</a></li>
           <li><a href="menue.html"> القائمة</a></li>
           <li><a href="who.html">من نحن</a></li>
-          <li><a href="home.html">الرئيسة</a></li>
+          <li><a href="home.php">الرئيسة</a></li>
         </ul>
       </nav>
     </div>
