@@ -1,6 +1,6 @@
 <?php
 session_start();
-header('locatin:login.php');
+header('location:home.php');
 
 
 $con = mysqli_connect('localhost','root','');
