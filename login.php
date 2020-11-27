@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> User Login and Registration</title>
+    <title> تسجيل </title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
