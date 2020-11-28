@@ -1,6 +1,6 @@
 @media all{
 .b{
-  background-image: url(https://up6.cc/11/160485894073721.jpg);
+  background-image: url("img/body.jpeg");
   width:auto ;
   height: 20%;
   background-size: cover;
@@ -52,7 +52,7 @@ a{
 }
 @media all{
 .container{
-  background-image: url(https://h.top4top.io/p_17731hsw23.jpg);
+  background-image: url("img/background.jpeg");
   max-width: 1300px;
   margin: auto;
   padding-left: 25px;
@@ -155,7 +155,7 @@ padding:40px;}
 .col-md-6-right{
 	background:#fff;
 	padding:40px;
-  
+
 }}
 @media all{
 .btn{
