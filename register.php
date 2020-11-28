@@ -1,9 +1,11 @@
+<!-- from https://youtu.be/NXAHkqiIepc -->
 <?php
 session_start();
 
 
 
 $con = mysqli_connect('localhost','root','');
+
 mysqli_select_db($con,'userregistration');
 
 $name =$_POST['user'];
