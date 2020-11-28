@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title> التسجيل </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+
   </head>
   <body>
 <div class="container">
@@ -21,7 +22,6 @@
       </nav>
     </div>
 </div>
-
 <div id="content">
     12 - 4 - 1442  <br>
   يوم بداية الحلم وميلاد الحكاية، فيه طموحنا يكبر وبكم يفخر
@@ -29,50 +29,48 @@
   وبهذه المناسبة سجل دخولك لتدخل بالسحب على ايفون 12
 </div>
 
-    <div class="cont">
+   
       <div class="login-box">
       <div class="row1">
-        <div class="col-md-6">
+        <div class="col-md-6-left">
           <h2> Login Here</h2>
+		  <br>
           <form  action="validation.php" method="post">
             <div class="form-group">
               <label> Usename</label>
               <input type="text" name="user" class="form-control" required>
             </div>
+			<br>
             <div class="form-group">
               <label> Password</label>
               <input type="password" name="password" class="form-control" required>
             </div>
-            <button type="submit" class="btn btn-primary"> Login </button><div class="col-md-6">
+			<br>
+            <button type="submit" class="btn"> Login </button>
           </form>
           </div>
-
-          <div class="col-md-6">
+		  
+          <div class="col-md-6-right">
             <h2> Register Here</h2>
+			<br>
             <form  action="register.php" method="post">
               <div class="form-group">
                 <label> Usename</label>
                 <input type="text" name="user" class="form-control" required>
               </div>
+			  <br>
               <div class="form-group">
                 <label> Password</label>
                 <input type="password" name="password" class="form-control" required>
               </div>
-              <button type="submit" class="btn btn-primary"> Register </button>
+			  <br>
+              <button type="submit" class="btn"> Register </button>
             </form>
             </div>
-
            </div>
-
       </div>
-
-    </div>
-
-
+   
   <script src="script.js">
     </script>
-
-
-
 </body>
 </html>
