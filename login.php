@@ -29,7 +29,7 @@
   وبهذه المناسبة سجل دخولك لتدخل بالسحب على ايفون 12
 </div>
 
-   
+
       <div class="login-box">
       <div class="row1">
         <div class="col-md-6-left">
@@ -49,7 +49,7 @@
             <button type="submit" class="btn"> Login </button>
           </form>
           </div>
-		  
+
           <div class="col-md-6-right">
             <h2> Register Here</h2>
 			<br>
@@ -71,8 +71,10 @@
             </div>
            </div>
       </div>
- 
-  <script src="script.js">
-    </script>
+
+<script src="script.js">
+
+</script>
+
 </body>
 </html>
