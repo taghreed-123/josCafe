@@ -35,15 +35,15 @@
         <div class="col-md-6-left">
           <h2> Login Here</h2>
 		  <br>
-          <form  action="validation.php" method="post">
+          <form   name="f1"action="validation.php"  onsubmit="return validation()"method="post">
             <div class="form-group">
               <label> Usename</label>
-              <input type="text" name="user" class="form-control" required>
+              <input type="text" name="user" class="form-control" >
             </div>
 			<br>
             <div class="form-group">
               <label> Password</label>
-              <input type="password" name="password" class="form-control" required>
+              <input type="password" name="password" class="form-control" >
             </div>
 			<br>
             <button type="submit" class="btn"> Login </button>
@@ -65,11 +65,36 @@
               </div>
 			  <br>
               <button type="submit" class="btn"> Register </button>
+
+
             </form>
             </div>
            </div>
       </div>
-   
+   			  
+<script>  
+            function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.password.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>
+‫أ
   <script src="script.js">
     </script>
 </body>
