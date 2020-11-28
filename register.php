@@ -11,18 +11,21 @@ $pass =$_POST['password'];
 
 
 
-$s =" select *from usertable where name='$name'";
+$query =" SELECT*FROM usertable  WHERE name='$name' ";
 
-$result = mysqli_query($con,$s);
+$result=mysqli_query($con,$query);
+$resultCheck = mysqli_num_rows($result);
 
-$num = mysqli_num_rows($result);
 
-if($num ==1){
+if($resultCheck==1){
    echo "username Already Taken";
+
 }else{
-  $reg ="insert into usertable(name,passowrd) values ('$name','$pass')";
-    mysqli_query($con,$reg);
-    echo "<script type='text/javascript'>alert('تم دخولك للسحب')</script>";
+  $reg ="insert into usertable(name,password) values ('$name','$pass')";
+  mysqli_query($con,$reg);
+  echo "<script type='text/javascript'>alert('تم دخولك للسحب')</script>";
+
+
 }
 
  ?>
