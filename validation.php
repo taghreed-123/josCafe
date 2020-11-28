@@ -15,7 +15,7 @@ if(mysqli_num_rows(mysqli_query($con,$query))>0){
   
 }
 else{
-	echo"اسم المستخدم او كلمه المرور خطأه";
+	echo"اسم المستخدم او كلمه المرور خطأ";
 }
 
 }
