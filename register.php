@@ -1,6 +1,6 @@
 <?php
 session_start();
-header('location:home.php');
+
 
 
 $con = mysqli_connect('localhost','root','');
@@ -27,5 +27,7 @@ if($resultCheck==1){
 
 
 }
+
+echo '<meta http-equiv="refresh" content="0; url=home.php" />'
 
  ?>
