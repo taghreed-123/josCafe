@@ -49,6 +49,7 @@
 			<br>
             <button type="submit" class="btn"> Login </button>
           </form>
+		
           </div>
 		  
           <div class="col-md-6-right">
