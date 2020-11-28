@@ -29,7 +29,7 @@
   وبهذه المناسبة سجل دخولك لتدخل بالسحب على ايفون 12
 </div>
 
-
+   
       <div class="login-box">
       <div class="row1">
         <div class="col-md-6-left">
@@ -49,7 +49,7 @@
             <button type="submit" class="btn"> Login </button>
           </form>
           </div>
-
+		  
           <div class="col-md-6-right">
             <h2> Register Here</h2>
 			<br>
@@ -71,30 +71,8 @@
             </div>
            </div>
       </div>
-
-<script>
-            function validation()
-            {
-                var id=document.f1.user.value;
-                var ps=document.f1.password.value;
-                if(id.length=="" && ps.length=="") {
-                    alert("User Name and Password fields are empty");
-                    return false;
-                }
-                else
-                {
-                    if(id.length=="") {
-                        alert("User Name is empty");
-                        return false;
-                    }
-                    if (ps.length=="") {
-                    alert("Password field is empty");
-                    return false;
-                    }
-                }
-            }
-        </script>
-‫أ
-  
+ 
+  <script src="script.js">
+    </script>
 </body>
 </html>
