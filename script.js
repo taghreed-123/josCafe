@@ -1,5 +1,5 @@
-   			  
-  //https://www.javatpoint.com/php-mysql-login-system
+ 			  
+  
             function validation()  
             {  
                 var id=document.f1.user.value;  
