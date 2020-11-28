@@ -140,6 +140,32 @@ padding-right:250px;
 color:#e8cba9;
 }
 }
+	@media all{
+.login-box{
+	max-width:400px;
+	margin:10px auto;
+	border:10px solid #e8cba9;
+	}}
+	@media all{
+.col-md-6-left{
+	background:#fff;
+padding:40px;}
+}
+@media all{
+.col-md-6-right{
+	background:#fff;
+	padding:40px;
+  
+}}
+@media all{
+.btn{
+	height:30px;
+	width:200px;
+	background:#e8cba9;
+	position:relative;
+	left:50px;
+}
+}
 #content {
 text-align: center;
 color: #e8cba9;
@@ -150,19 +176,4 @@ font-weight: bold;
   font-weight: bold;
 line-height: 2.4;
     margin-top: 19px;
-}
-#frm {
-  border: solid gray 1px;
-  width: 20%;
-  border-radius: 5px;
-  margin: 200px auto;
-  background: white;
-  padding: 30px;
-}
-#btn {
-  color: #fff;
-  background: #337ab7;
-  padding: 5px;
-  margin-left: 69%;
-
 }
