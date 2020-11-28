@@ -178,6 +178,44 @@ line-height: 2.4;
     margin-top: 19px;
 }
 @media all{
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+}
+@media all{
+html {
+  overflow-y: scroll;
+}
+}
+@media all{
+body {
+  background: #f3f3f3;
+  font-family: 'Manjari', sans-serif;
+}
+}
+@media all{
+a {
+  text-decoration: none;
+  color: #1da1f2;
+  transition: .5s ease;
+}
+}
+@media all{
+a:hover {
+  color: #0080ff;
+}
+}
+@media all{
+.form {
+  background: rgb(22,19,54, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+}
+@media all{
 .top-area {
   list-style: none;
   padding: 0;
