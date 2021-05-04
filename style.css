@@ -60,7 +60,7 @@ a{
 }}
 @media all{
 .paragraph{
-    font-family: Amiri;
+  font-family: 'Mada', sans-serif;
   font-size: 50px;
   margin-left: 400px;
   margin-top: 140px;
@@ -69,6 +69,7 @@ a{
 }}
 @media all{
 .h2{
+  font-family: 'Cairo', sans-serif;
     text-align: center;
     color: #e8cba9;
     direction: rtl;
@@ -114,6 +115,7 @@ a{
 }}
 @media all{
 .mab{
+    font-family: 'Cairo', sans-serif;
   text-decoration:none;
   font-size: 40px;
   color:#e8cba9;
@@ -121,6 +123,7 @@ a{
 }
 @media all{
 .information{
+    font-family: 'Cairo', sans-serif;
 font-size:70px;
 font-weight:bold;
 text-align:center;
@@ -129,12 +132,14 @@ color:#e8cba9;
 }}
 @media all{
 .prigrap{
+  font-family: 'Cairo', sans-serif;
 font-size:40px;
 padding-right:10px;
 color:#e8cba9;
 }}
 @media all{
 .timeforprg{
+    font-family: 'Cairo', sans-serif;
   font-size:40px;
 padding-right:250px;
 color:#e8cba9;

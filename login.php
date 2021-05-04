@@ -29,51 +29,51 @@
   وبهذه المناسبة سجل دخولك لتدخل بالسحب على ايفون 12
 </div>
 
-   
+
       <div class="login-box">
-      <div class="row1">
-	  
+      <div class="row1" dir=rtl>
+
         <div class="col-md-6-left">
-          <h2> Login Here</h2>
+          <h2>سجل من هنا </h2>
 		  <br>
           <form   name="f1"action="validation.php"  onsubmit="return validation()"method="post">
             <div class="form-group">
-              <label> Usename</label>
+              <label> اسم المستخدم</label>
               <input type="text" name="user" class="form-control" >
             </div>
 			<br>
             <div class="form-group">
-              <label> Password</label>
+              <label> كلمة السر</label>
               <input type="password" name="password" class="form-control" >
             </div>
 			<br>
-            <button type="submit" class="btn"> Login </button>
+            <button type="submit" class="btn">دخول </button>
           </form>
-		
+
           </div>
-		  
+
           <div class="col-md-6-right">
-            <h2> Register Here</h2>
+            <h2> تسجيل الدخول</h2>
 			<br>
             <form  action="register.php" method="post">
               <div class="form-group">
-                <label> Usename</label>
+                <label> اسم المستخدم</label>
                 <input type="text" name="user" class="form-control" required>
               </div>
 			  <br>
               <div class="form-group">
-                <label> Password</label>
+                <label> كلمة السر</label>
                 <input type="password" name="password" class="form-control" required>
               </div>
 			  <br>
-              <button type="submit" class="btn"> Register </button>
+              <button type="submit" class="btn"> تسجيل </button>
 
 
             </form>
             </div>
            </div>
       </div>
- 
+
   <script src="script.js">
     </script>
 </body>
