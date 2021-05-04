@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title> التسجيل </title>
     <link rel="stylesheet" type="text/css" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mada:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -31,42 +33,50 @@
 
 
       <div class="login-box">
-      <div class="row1" dir=rtl>
+      <div class="row1">
 
         <div class="col-md-6-left">
-          <h2>سجل من هنا </h2>
+          <h2 dir=rtl>سجل من هنا </h2>
 		  <br>
+
           <form   name="f1"action="validation.php"  onsubmit="return validation()"method="post">
-            <div class="form-group">
+            <div class="form-group" dir=rtl>
               <label> اسم المستخدم</label>
               <input type="text" name="user" class="form-control" >
+
             </div>
 			<br>
-            <div class="form-group">
+            <div class="form-group" dir=rtl>
               <label> كلمة السر</label>
+
               <input type="password" name="password" class="form-control" >
+
             </div>
 			<br>
-            <button type="submit" class="btn">دخول </button>
+            <button type="submit" class="btn"> تسجيل </button>
           </form>
 
           </div>
 
           <div class="col-md-6-right">
-            <h2> تسجيل الدخول</h2>
+            <h2 dir=rtl> تسجيل الدخول</h2>
 			<br>
             <form  action="register.php" method="post">
-              <div class="form-group">
+              <div class="form-group" dir=rtl>
                 <label> اسم المستخدم</label>
+
                 <input type="text" name="user" class="form-control" required>
+
               </div>
 			  <br>
-              <div class="form-group">
+              <div class="form-group" dir=rtl>
                 <label> كلمة السر</label>
+
                 <input type="password" name="password" class="form-control" required>
+
               </div>
 			  <br>
-              <button type="submit" class="btn"> تسجيل </button>
+              <button type="submit" class="btn"> دخول </button>
 
 
             </form>
